@@ -2,6 +2,8 @@
 
 This is a public portfolio sample using fictional data. It groups session records into recipient HTML previews and a JSON manifest for a fixed UTC period.
 
+The one-page preview demonstrates a recipient-ready statement. Connecting real databases, delivery, or workflow automation is separate custom integration work.
+
 Requires Node.js 24. Run locally with a new or empty `preview` directory; `generated/` is an included, view-only example and must not be used as the output directory.
 
 ```sh
