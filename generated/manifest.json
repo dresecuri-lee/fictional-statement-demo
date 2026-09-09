@@ -1,0 +1,26 @@
+{
+  "start": "2026-08-01T00:00:00.000Z",
+  "end": "2026-09-01T00:00:00.000Z",
+  "currency": "USD",
+  "statements": [
+    {
+      "recipientId": "alex",
+      "file": "statement-alex.html",
+      "sessionCount": 2,
+      "totalAmountCents": 17500,
+      "sessionIds": [
+        "shared-opening",
+        "alex-followup"
+      ]
+    },
+    {
+      "recipientId": "river",
+      "file": "statement-river.html",
+      "sessionCount": 1,
+      "totalAmountCents": 12500,
+      "sessionIds": [
+        "shared-opening"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "recipients": [
+    { "id": "alex", "displayName": "Alex Example", "email": "alex@example.test" },
+    { "id": "river", "displayName": "River Example", "email": "river@example.test" }
+  ],
+  "sessions": [
+    { "id": "shared-opening", "occurredAt": "2026-08-01T00:00:00.000Z", "participantIds": ["alex", "river"], "description": "Shared planning <script>alert('demo')</script>", "amountCents": 12500, "currency": "USD" },
+    { "id": "alex-followup", "occurredAt": "2026-08-15T12:30:00.000Z", "participantIds": ["alex"], "description": "Fictional follow-up session", "amountCents": 5000, "currency": "USD" },
+    { "id": "excluded-ending", "occurredAt": "2026-09-01T00:00:00.000Z", "participantIds": ["river"], "description": "Excluded end boundary session", "amountCents": 9999, "currency": "USD" }
+  ]
+}
